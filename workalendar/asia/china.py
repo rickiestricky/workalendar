@@ -6,6 +6,14 @@ from ..registry_tools import iso_register
 from ..exceptions import CalendarError
 
 holidays = {
+    2017:
+        {
+            'Ching Ming Festival': [(4, 5), (4, 6), (4, 7)],
+            'Labour Day Holiday': [(4, 29), (4, 30), (5, 1)],
+            'Dragon Boat Festival': [(6, 18)],
+            'Mid-Autumn Festival': [(9, 24)],
+            'New year': [(12, 30), (12, 31)]
+        },
     2018:
         {
             'Ching Ming Festival': [(4, 5), (4, 6), (4, 7)],
