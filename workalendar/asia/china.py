@@ -101,9 +101,9 @@ class China(ChineseNewYearCalendar):
             f"Support years {year_min}-{year_max} currently, "
             f"need update every year."
         )
-        if year not in holidays:
-            msg = f"Need configure {year} for China."
-            raise CalendarError(msg)
+        # if year not in holidays:
+        #     msg = f"Need configure {year} for China."
+        #     raise CalendarError(msg)
         return super().get_calendar_holidays(year)
 
     def get_variable_days(self, year):
